@@ -25,7 +25,6 @@ This thing uses the following fonts:
 
 #include "Orbitron_VariableFont_wght20pt7b.h"
 
-
 See https://icircuit.net/adding-custom-fonts-to-tft_espi/4090 on how to make more fonts.
 
 **Libraries:**
@@ -37,14 +36,18 @@ include <WiFi.h>
 #include <Audio.h> <<-- this is the ESP32audio-I2S-master
 
 **Connections:**
+
 **Amplifier**
+
 #define I2S_DOUT 25        // I2S Data out pin
 
 #define I2S_BCLK 27        // I2S Bit clock
 
 #define I2S_LRC  26        // I2S Left/Right clock
 
-**Display ** 
+
+**Display**
+
 #define TFT_MISO -1
 
 #define TFT_MOSI 21
