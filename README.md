@@ -1,7 +1,7 @@
 # ESP32_talking_clock
 How to create a talking clock with ESP32 and a 1.28" TFT display.
 
-Ingredients:
+**Ingredients:**
 
 ESP32, any type
 1.28" round OLED display, 240 x 240 pixels, for example https://www.amazon.com/Teyleten-Robot-Display-Interface-240x240/dp/B0B7TFRNN1
