@@ -28,12 +28,17 @@ This thing uses the following fonts:
 See https://icircuit.net/adding-custom-fonts-to-tft_espi/4090 on how to make more fonts.
 
 **Libraries:**
-#include <Arduino_GFX_Library.h>
-include <WiFi.h>
-#include <ezTime.h>
-#include <FS.h>
-#include <SPIFFS.h>
-#include <Audio.h> <<-- this is the ESP32audio-I2S-master
+<Arduino_GFX_Library.h>
+
+<WiFi.h>
+
+<ezTime.h>
+
+<FS.h>
+
+<SPIFFS.h>
+
+<Audio.h> <<-- this is the ESP32audio-I2S-master
 
 **Connections:**
 
