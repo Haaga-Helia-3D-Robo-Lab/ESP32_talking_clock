@@ -20,8 +20,11 @@ When you use this, be sure to edit the
 
 This thing uses the following fonts:
 #include "Orbitron_VariableFont_wght10pt7b.h"
+
 #include "Orbitron_VariableFont_wght15pt7b.h"
+
 #include "Orbitron_VariableFont_wght20pt7b.h"
+
 
 See https://icircuit.net/adding-custom-fonts-to-tft_espi/4090 on how to make more fonts.
 
@@ -36,13 +39,22 @@ See https://icircuit.net/adding-custom-fonts-to-tft_espi/4090 on how to make mor
 **Connections:**
 **Amplifier**
 #define I2S_DOUT 25        // I2S Data out pin
+
 #define I2S_BCLK 27        // I2S Bit clock
+
 #define I2S_LRC  26        // I2S Left/Right clock
 
 **Display ** 
 #define TFT_MISO -1
+
 #define TFT_MOSI 21
+
 #define TFT_SCLK 22
+
 #define TFT_CS   5
+
 #define TFT_DC   12
+
 #define TFT_RST  4
+
+
