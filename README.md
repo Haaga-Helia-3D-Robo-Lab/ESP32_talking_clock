@@ -28,6 +28,7 @@ This thing uses the following fonts:
 See https://icircuit.net/adding-custom-fonts-to-tft_espi/4090 on how to make more fonts.
 
 **Libraries:**
+
 <Arduino_GFX_Library.h>
 
 <WiFi.h>
