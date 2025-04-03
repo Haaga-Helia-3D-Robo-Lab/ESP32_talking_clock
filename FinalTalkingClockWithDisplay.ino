@@ -23,8 +23,8 @@
 #define I2S_LRC  26
 
 // WiFi Credentials
-const char* ssid = "moaiwlan";
-const char* password = "Ossi1Paavo234";
+const char* ssid = "YOUR_SSID_HERE";
+const char* password = "YOUR_PASSWORD_HERE";
 
 // Create display bus instance
 Arduino_DataBus *bus = new Arduino_ESP32SPI(TFT_DC, TFT_CS, TFT_SCLK, TFT_MOSI, TFT_MISO);
