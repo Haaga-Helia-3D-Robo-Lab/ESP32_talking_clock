@@ -30,7 +30,7 @@ See https://icircuit.net/adding-custom-fonts-to-tft_espi/4090 on how to make mor
 
 **Libraries:**
 #include <Arduino_GFX_Library.h>
-#include <WiFi.h>
+include <WiFi.h>
 #include <ezTime.h>
 #include <FS.h>
 #include <SPIFFS.h>
